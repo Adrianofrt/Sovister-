@@ -5,10 +5,10 @@ int main()
 
  printf ("------------------Cálculo de raiz quadrada de números inteiros------------------\n");
 
- float numero, raiz, aux;
+ int numero, raiz, aux;
 
  printf("Digite um número real maior que zero: \n");
- scanf("%f", &numero);
+ scanf("%d", &numero);
 
  aux = numero;
 
@@ -19,7 +19,7 @@ int main()
          numero ++;       
   }
 
- printf("%.2f", raiz);  
+ printf("%d", raiz);  
 
  return (0);
 }
